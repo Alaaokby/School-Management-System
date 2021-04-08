@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem">
+  <img src="{{ studentDetails.avatar }}" class="card-img-top" />
+  <div class="card-body">
+    <h5 class="card-title text-dark">
+      {{ studentDetails.first_name }} {{ studentDetails.last_name }}
+    </h5>
+    <p class="card-text text-dark">Email:{{ studentDetails.email }}</p>
+    <a routerLink="/home" class="btn btn-primary">Go Home</a>
+  </div>
+</div>

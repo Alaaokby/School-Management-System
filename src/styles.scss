@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+$bgColor: #131722;
+$fontColor: #fff;
+body {
+  background-color: $bgColor;
+  color: $fontColor;
+}
+table {
+  td,
+  th {
+    color: $fontColor;
+  }
+}
